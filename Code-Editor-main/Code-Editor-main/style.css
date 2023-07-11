@@ -1,0 +1,34 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:crimson;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.edit{
+    background-color: rgb(250, 239, 161);
+    width: 100%;
+
+}
+textarea{
+    width: 100%;
+    min-height: 350px;
+    overflow: scroll;
+    font-size: 1.5em;
+}
+iframe{
+    width: 100%;
+    height: 28em;
+}
+output{
+    background-color: rgb(243, 152, 118);
+}
